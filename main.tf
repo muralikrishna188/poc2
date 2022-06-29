@@ -1,12 +1,4 @@
-terraform {
-  backend "azurerm"{
-    resource_group_name = "storage-tfstate-rg"
-    storage_account_name = "tfstateeastus001"
-    container_name = "bookstorestate"
-    key = "terraform.bookstorestate"
-    access_key = "7wMkPUfvaKgZOmoDlr1IlXG9TMFixqDFzztFTl/Z62AGxnnzIx1BiXx7NHDQYVE+EdORu755rzIo+AStBDcZpQ=="
-  }
-}
+
 
 
 provider "azurerm" {
